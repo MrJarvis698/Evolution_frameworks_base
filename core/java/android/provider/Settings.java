@@ -4828,6 +4828,12 @@ public final class Settings {
          */
         public static final String THREE_FINGER_GESTURE = "three_finger_gesture";
 
+        /**
+         * Unlock keystore with fingerprint after reboot
+         * @hide
+         */
+        public static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+
         /** @hide */
         private static final Validator THREE_FINGER_GESTURE_VALIDATOR = BOOLEAN_VALIDATOR;
 
